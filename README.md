@@ -1,1 +1,7 @@
-# streamlit-conversion-funnel-test
+# streamlit-conversion-funnel
+
+create a virtual enviroment 
+
+pip install -r requirements.txt
+
+streamlit run app.py
