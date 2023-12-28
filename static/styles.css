@@ -1,0 +1,24 @@
+/* styles.css */
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.row-widget.stMultiSelect {
+    background-color: #D4FBFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.st-ay {
+    background-color: #D4F5F4;
+}
+
+.row-widget.stMultiSelect .st-ay  .st-bx {
+    background-color: #FF1780;
+}
