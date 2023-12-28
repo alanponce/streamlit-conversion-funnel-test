@@ -11,6 +11,9 @@ from plotly.subplots import make_subplots
 import plotly.express as px
 import plotly.graph_objects as go
 
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 #Set title, icon, and layout
 st.set_page_config(
      page_title="FinHabits",
