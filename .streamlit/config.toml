@@ -1,4 +1,5 @@
 [theme]
+
 primaryColor="#F63366"
 backgroundColor="#FFFFFF"
 secondaryBackgroundColor="#F0F2F6"
@@ -30,3 +31,13 @@ gatherUsageStats = false
 # - Open the browser
 # Default: whatever value is set in server.port.
 #serverPort = 8501
+
+
+[server]
+
+# The address where the server will listen for client and browser
+# connections. Use this if you want to bind the server to a specific address.
+# If set, the server will only be accessible from this address, and not from
+# any aliases (like localhost).
+# Default: (unset)
+#address = '0.0.0.0'
